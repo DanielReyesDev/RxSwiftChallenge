@@ -12,9 +12,8 @@ import RxSwift
 final class Challenges {
     
     func test() {
-        subscribeChallenge()
+        
     }
-    
 }
 
 extension Challenges {
