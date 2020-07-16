@@ -7,14 +7,15 @@
 //
 
 import UIKit
+import RxSwift
 
 class ViewController: UIViewController {
-
+    
+    private let challenges = Challenges()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        challenges.test()
     }
-
-
 }
 
